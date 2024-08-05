@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>kiruthika.CV</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+
+
+<body>
+<div id="header">
+<table width="100%" class="table1"> <tr>
+    <th align="left"><a class="header" href="" >kiruthika.CV</a></th>
+    <th><table width="50%" align="right" class="table1">
+        <tr> 
+<th><a class="header" href="#aboutt">ABOUT</a></th>
+<th><a class="header" href="contact.html">CONTACT</a></th>
+<th><a class="header" href="#projj">PROJECTS</a></th>
+<th><a class="header" href="certificate.html">CERTIFICATIONS</a></th>
+
+
+        </tr>
+    </table></th>
+</tr></table>    
+</div>
+
+<div id="intro"> 
+    <table class="table2">
+        <tr>
+<th><img height="400px" width="400px" src="Picture1.png"> </th>
+<th ><div class="wrapper">
+    <div class="typing-demo">
+     HI! I AM <br> KIRUTHIKA MURUGESAN <br>
+    </div>
+    <div id="downloadd"><a class="header" href="KiruthikaMurugesan_CV.pdf" target="_blank">Download CV</a> </div>
+  </div>
+</th>
+
+
+
+
+        </tr>
+
+    </table>
+
+</div>
+
+<nav class="sociall">
+  <ul>
+      <li><a href="https://twitter.com/kuirkykarrot_" target="_blank">Twitter <i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://github.com/kiruthikaa-codes?tab=repositories" target="_blank">Github <i class="fa fa-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/kiruthika-murugesan-803277280/" target="_blank">Linkedin <i class="fa fa-linkedin"></i></a></li>
+      </ul>
+</nav> 
+
+<a id="aboutt"></a>
+<div id="carousel-wrapper">
+    <div id="menu">
+       
+        <div id="current-option">
+            
+          <span id="current-option-text1" data-previous-text="" data-next-text=""> </span>
+        
+          <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+        </div>
+        <button id="previous-option"></button>
+        
+        <button id="next-option"></button>
+    </div>
+    <div id="image"></div>
+  </div>
+
+<br><br><br>
+
+<div class="projects" id="projj">  <h1>System<span style="color:#30380d;">.<span style="color:#645b2e;">out</span>.</span><span style="color:#988f76;">println</span>("</h1>
+  <div class="string">
+    
+    <h1 class="greeting es">Projects!</h1>
+    <h1 class="greeting de">Projekte!</h1>
+    <h1 class="greeting it">Proyectos!</h1>
+    <h1 class="greeting en">Projects!</h1>  
+  
+  </div>
+  <h1 class="closure">");</h1>
+</div>
+
+<a href="#projj"></a>
+  <div class="projects2">
+    <ul class="gallery">
+      <li style="background:#645b2e;">
+        <a href="https://kiruthikaa-codes.github.io/blog_website/" target="_blank"></a>
+        <img src="fernweh_pic.png" alt="Project 1">
+          <p>A magical blog website(Frontend): <br>Using HTML, CSS, JavaScript<br><a href="https://kiruthikaa-codes.github.io/blog_website/" target="_blank" class="project-button">Live Link</a>
+          </p>
+      </li>
+
+      <li style="background:#3c371c;">
+        <a href="" target="_blank"></a>
+        <img src="" alt="Project 2">
+          <p>TIC-TAC-TOE Website:<br> Using Flask in python, basic HTML, CSS and JavaScript<br><a href="" target="_blank" class="project-button">Live Link</a>
+          </p>
+      </li>
+
+      <li style="background:#464020;">
+        <a href="" target="_blank"></a>
+        <img src="" alt="Project 3">
+          <p>My Portfolio Website:<br>Explore my portfolio to see a showcase of my work, skills, and projects.<br><a href="" target="_blank" class="project-button">Live Link</a>
+          </p>
+      </li>
+
+      <li style="background:#a29d82;">
+        <a href="" target="_blank"></a>
+        <img src="" alt="Project 4">
+          <p>Productivity Dashboard:<br>Using HTML, CSS and JavaScript<br>A simple dashboard crafted for a productive study or work session that includes a pomodoro timer, spotify playlist, a to-do tasks section and a journal facility.<br><a href="" target="_blank" class="project-button">Live Link</a>
+          </p>
+      </li>
+
+      <li style="background:#645b2e;">
+        <a href="" target="_blank"></a>
+        <img src="" alt="Project 5">
+          <p>coming soon<br><a href="" target="_blank" class="project-button">Live Link</a>
+          </p>
+      </li>
+      <li style="background:#464020;">
+        <a href="" target="_blank"></a>
+        <img src="" alt="Project 6">
+          <p>coming soon<br><a href="" target="_blank" class="project-button">Live Link</a>
+          </p>
+      </li>
+      <li style="background:#a29d82;">
+        <a href="" target="_blank"></a>
+        <img src="" alt="Project 7">
+          <p>coming soon<br><a href="" target="_blank" class="project-button">Live Link</a>
+          </p>
+      </li>
+    </ul>
+  </div>
+
+
+<script>
+  const text1_options = [
+  "ABOUT",
+  "EDUCATION"
+];
+const text2_options = [
+  "A third-year B.Tech student specializing in Computer Science Engineering with a focus on Data Science. I am passionate about learning technologies and creating innovative solutions. I enjoy participating in hackathons and collaborating on challenging projects. I aim to leverage data to drive impactful solutions and make a positive difference.",
+  "B.Tech - Computer Science Engineering with Specialization in Data Science \n Vellore Institute of Technology, Vellore\n Current CGPA: 9.00 \n \n High School, Class XII\n Chrysalis High, Kadugodi \n CGPA: 9.52",
+
+];
+const color_options = ["#c7c2ac","#777e5c"];
+const image_options = [ ];
+var i = 0;
+const currentOptionText1 = document.getElementById("current-option-text1");
+const currentOptionText2 = document.getElementById("current-option-text2");
+const currentOptionImage = document.getElementById("image");
+const carousel = document.getElementById("carousel-wrapper");
+const mainMenu = document.getElementById("menu");
+const optionPrevious = document.getElementById("previous-option");
+const optionNext = document.getElementById("next-option");
+
+currentOptionText1.innerText = text1_options[i];
+currentOptionText2.innerText = text2_options[i];
+currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
+mainMenu.style.background = color_options[i];
+
+optionNext.onclick = function () {
+  i = i + 1;
+  i = i % text1_options.length;
+  currentOptionText1.dataset.nextText = text1_options[i];
+
+  currentOptionText2.dataset.nextText = text2_options[i];
+
+  mainMenu.style.background = color_options[i];
+  carousel.classList.add("anim-next");
+  
+  setTimeout(() => {
+    currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
+  }, 455);
+  
+  setTimeout(() => {
+    currentOptionText1.innerText = text1_options[i];
+    currentOptionText2.innerText = text2_options[i];
+    carousel.classList.remove("anim-next");
+  }, 650);
+};
+
+optionPrevious.onclick = function () {
+  if (i === 0) {
+    i = text1_options.length;
+  }
+  i = i - 1;
+  currentOptionText1.dataset.previousText = text1_options[i];
+
+  currentOptionText2.dataset.previousText = text2_options[i];
+
+  mainMenu.style.background = color_options[i];
+  carousel.classList.add("anim-previous");
+
+  setTimeout(() => {
+    currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
+  }, 455);
+  
+  setTimeout(() => {
+    currentOptionText1.innerText = text1_options[i];
+    currentOptionText2.innerText = text2_options[i];
+    carousel.classList.remove("anim-previous");
+  }, 650);
+};
+
+/*const scrollLimit = 530; 
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > scrollLimit) {
+    window.scrollTo(0, scrollLimit);
+  }
+});
+*/
+const slider= document.querySelector('.gallery');
+const SCROLL_SPEED = 3;
+
+slider.addEventListener('wheel', e => {
+  e.preventDefault();
+  slider.scrollLeft += e.deltaY * SCROLL_SPEED;
+});
+
+const slider2= document.querySelector('.gallery');
+let isDown = false;
+let startX;
+let scrollLeft;
+
+slider2.addEventListener('mousedown', e => {
+  isDown = true;
+  slider.classList.add('active');
+  startX = e.pageX - slider.offsetLeft;
+  scrollLeft = slider.scrollLeft;
+});
+slider2.addEventListener('mouseleave', _ => {
+  isDown = false;
+  slider.classList.remove('active');
+});
+slider2.addEventListener('mouseup', _ => {
+  isDown = false;
+  slider.classList.remove('active');
+});
+slider2.addEventListener('mousemove', e => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - slider.offsetLeft;
+  const SCROLL_SPEED = 3;
+  const walk = (x - startX) * SCROLL_SPEED;
+  slider.scrollLeft = scrollLeft - walk;
+});
+
+
+
+</script>
+
+
+
+
+
+    </body>
+</html>
